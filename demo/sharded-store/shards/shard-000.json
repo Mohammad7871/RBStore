@@ -1,0 +1,29 @@
+[
+  {
+    "id": "surg-0001",
+    "category": "surgical",
+    "industry": "hospital",
+    "original_brand": "BrandX",
+    "rb_premium_name": "RB Scalpel Ultra",
+    "specs": ["Stainless", "Single Use"],
+    "stock_status": "in_stock"
+  },
+  {
+    "id": "surg-0002",
+    "category": "surgical",
+    "industry": "hospital",
+    "original_brand": "BrandY",
+    "rb_premium_name": "RB Forceps Classic",
+    "specs": ["Autoclavable"],
+    "stock_status": "limited"
+  },
+  {
+    "id": "laundry-0001",
+    "category": "laundry",
+    "industry": "hotel",
+    "original_brand": "BrandZ",
+    "rb_premium_name": "RB Washer Mini 100L",
+    "specs": ["100L"],
+    "stock_status": "preorder"
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "totalItems": 100,
+  "itemsPerShard": 50,
+  "shards": [
+    { "index": 0, "start": 0, "count": 50, "file": "../shards/shard-000.json" },
+    { "index": 1, "start": 50, "count": 50, "file": "../shards/shard-001.json" }
+  ]
+}

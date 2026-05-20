@@ -1,0 +1,47 @@
+[
+  {
+    "id": "surg-001",
+    "category": "surgical",
+    "industry": "hospital",
+    "original_brand": "BrandA",
+    "rb_premium_name": "RB Surgical Scalpel Pro 300",
+    "specs": ["Stainless Steel", "Single Use"],
+    "stock_status": "in_stock"
+  },
+  {
+    "id": "surg-002",
+    "category": "surgical",
+    "industry": "hospital",
+    "original_brand": "BrandB",
+    "rb_premium_name": "RB Surgical Forceps Series 4",
+    "specs": ["Autoclavable", "Precision Tip"],
+    "stock_status": "limited"
+  },
+  {
+    "id": "laundry-001",
+    "category": "laundry",
+    "industry": "hotel",
+    "original_brand": "BrandC",
+    "rb_premium_name": "RB Industrial Washer 200L",
+    "specs": ["200L", "3 Phase"],
+    "stock_status": "preorder"
+  },
+  {
+    "id": "furn-001",
+    "category": "furniture",
+    "industry": "hospital",
+    "original_brand": "BrandD",
+    "rb_premium_name": "RB ICU Bed Elite",
+    "specs": ["Electric", "4 Casters"],
+    "stock_status": "in_stock"
+  },
+  {
+    "id": "surg-003",
+    "category": "surgical",
+    "industry": "hospital",
+    "original_brand": "BrandE",
+    "rb_premium_name": "RB Surgical Clamp 12cm",
+    "specs": ["Stainless", "Locking"],
+    "stock_status": "in_stock"
+  }
+]

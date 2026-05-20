@@ -1,0 +1,55 @@
+{
+  "shard": "demo-002",
+  "items": [
+    {
+      "id": "P1000016",
+      "title": "Hospital Beds Model 525",
+      "brand": "RB Medical",
+      "category": "Hospital Beds",
+      "material": "316L Stainless Steel",
+      "grade": "Medical",
+      "durability": "High",
+      "image": "/public/assets/brands/placeholder.jpg"
+    },
+    {
+      "id": "P1000017",
+      "title": "Hotel Linen Model 334",
+      "brand": "RB Luxe",
+      "category": "Hotel Linen",
+      "material": "Long-staple Cotton",
+      "grade": "Premium",
+      "durability": "High",
+      "image": "/public/assets/brands/placeholder.jpg"
+    },
+    {
+      "id": "P1000018",
+      "title": "Surgical Sets Model 711",
+      "brand": "MediLux",
+      "category": "Surgical Sets",
+      "material": "316L Stainless Steel",
+      "grade": "Medical",
+      "durability": "Very High",
+      "image": "/public/assets/brands/placeholder.jpg"
+    },
+    {
+      "id": "P1000019",
+      "title": "Oxygen Concentrators Model 200",
+      "brand": "Acme Medical",
+      "category": "Oxygen Concentrators",
+      "material": "Powder-coated Steel",
+      "grade": "Medical",
+      "durability": "High",
+      "image": "/public/assets/brands/placeholder.jpg"
+    },
+    {
+      "id": "P1000020",
+      "title": "Kitchen Equipment Model 412",
+      "brand": "Comfort Line",
+      "category": "Kitchen Equipment",
+      "material": "Powder-coated Steel",
+      "grade": "Commercial",
+      "durability": "High",
+      "image": "/public/assets/brands/placeholder.jpg"
+    }
+  ]
+}

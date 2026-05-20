@@ -1,0 +1,14 @@
+Rewrite prompt: Brand-Specific Substitution
+
+Instruction:
+Given a generic product title or short description, rewrite it into a branded, premium product name and one-sentence tagline. Replace commodity words with a curated brand series name and include a high-level spec token.
+
+Template:
+Input: "Steel Rod 12mm"
+Output: "RB Dura-Steel Series 7 — 12mm Precision Structural Rod (S355 Grade)"
+
+Rules:
+- Prefix with brand series (e.g., 'RB Dura-', 'RB Medical', 'RB Luxe') based on category.
+- Include a concise spec token (material grade, dimension, or compliance code).
+- Keep title length under 80 characters.
+- Tone: authoritative, industrial, premium.

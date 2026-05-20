@@ -1,0 +1,15 @@
+.product-card {
+  background: var(--card-bg);
+}
+.product-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.request-details-btn {
+  box-shadow: var(--shadow-sm);
+}
+.request-details-btn:hover {
+  transform: translateY(-3px);
+}

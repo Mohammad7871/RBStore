@@ -1,0 +1,105 @@
+{
+  "shard": "demo-000",
+  "items": [
+    {
+      "id": "P1000001",
+      "title": "Hospital Beds Model 213",
+      "brand": "RB Medical",
+      "category": "Hospital Beds",
+      "material": "316L Stainless Steel",
+      "grade": "Medical",
+      "durability": "High",
+      "image": "/public/assets/brands/placeholder.jpg"
+    },
+    {
+      "id": "P1000002",
+      "title": "Hotel Linen Model 856",
+      "brand": "RB Luxe",
+      "category": "Hotel Linen",
+      "material": "Long-staple Cotton",
+      "grade": "Premium",
+      "durability": "High",
+      "image": "/public/assets/brands/placeholder.jpg"
+    },
+    {
+      "id": "P1000003",
+      "title": "Surgical Sets Model 305",
+      "brand": "MediLux",
+      "category": "Surgical Sets",
+      "material": "316L Stainless Steel",
+      "grade": "Medical",
+      "durability": "Very High",
+      "image": "/public/assets/brands/placeholder.jpg"
+    },
+    {
+      "id": "P1000004",
+      "title": "Oxygen Concentrators Model 492",
+      "brand": "Acme Medical",
+      "category": "Oxygen Concentrators",
+      "material": "Powder-coated Steel",
+      "grade": "Medical",
+      "durability": "High",
+      "image": "/public/assets/brands/placeholder.jpg"
+    },
+    {
+      "id": "P1000005",
+      "title": "Kitchen Equipment Model 607",
+      "brand": "Comfort Line",
+      "category": "Kitchen Equipment",
+      "material": "Powder-coated Steel",
+      "grade": "Commercial",
+      "durability": "High",
+      "image": "/public/assets/brands/placeholder.jpg"
+    },
+    {
+      "id": "P1000006",
+      "title": "Hospital Beds Model 374",
+      "brand": "RB Medical",
+      "category": "Hospital Beds",
+      "material": "316L Stainless Steel",
+      "grade": "Medical",
+      "durability": "High",
+      "image": "/public/assets/brands/placeholder.jpg"
+    },
+    {
+      "id": "P1000007",
+      "title": "Hotel Linen Model 221",
+      "brand": "RB Luxe",
+      "category": "Hotel Linen",
+      "material": "Long-staple Cotton",
+      "grade": "Premium",
+      "durability": "High",
+      "image": "/public/assets/brands/placeholder.jpg"
+    },
+    {
+      "id": "P1000008",
+      "title": "Surgical Sets Model 118",
+      "brand": "MediLux",
+      "category": "Surgical Sets",
+      "material": "316L Stainless Steel",
+      "grade": "Medical",
+      "durability": "Very High",
+      "image": "/public/assets/brands/placeholder.jpg"
+    },
+    {
+      "id": "P1000009",
+      "title": "Oxygen Concentrators Model 733",
+      "brand": "Acme Medical",
+      "category": "Oxygen Concentrators",
+      "material": "Powder-coated Steel",
+      "grade": "Medical",
+      "durability": "High",
+      "image": "/public/assets/brands/placeholder.jpg"
+    },
+    {
+      "id": "P1000010",
+      "title": "Kitchen Equipment Model 904",
+      "brand": "Comfort Line",
+      "category": "Kitchen Equipment",
+      "material": "Powder-coated Steel",
+      "grade": "Commercial",
+      "durability": "High",
+      "image": "/public/assets/brands/placeholder.jpg"
+    }
+  ]
+}

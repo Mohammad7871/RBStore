@@ -1,0 +1,23 @@
+{
+  "shard": "example-0000",
+  "items": [
+    {
+      "id": "P0000001",
+      "title": "Hospital Bed Model A",
+      "brand": "Acme Medical",
+      "image": "/public/assets/brands/bed-a.jpg"
+    },
+    {
+      "id": "P0000002",
+      "title": "Deluxe Hotel Linen Set",
+      "brand": "Comfort Line",
+      "image": "/public/assets/brands/linen-a.jpg"
+    },
+    {
+      "id": "P0000003",
+      "title": "Surgical Light Unit",
+      "brand": "MediLux",
+      "image": "/public/assets/brands/light-a.jpg"
+    }
+  ]
+}

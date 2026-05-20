@@ -1,0 +1,30 @@
+.market-quote-btn {
+  background: #0b3b66;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+.tooltip .tip {
+  display: none;
+  position: absolute;
+  top: -36px;
+  left: 0;
+  background: #222;
+  color: #fff;
+  padding: 6px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  white-space: nowrap;
+}
+.tooltip:focus-within .tip,
+.tooltip:hover .tip {
+  display: block;
+}

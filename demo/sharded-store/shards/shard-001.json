@@ -1,0 +1,29 @@
+[
+  {
+    "id": "furn-0001",
+    "category": "furniture",
+    "industry": "hospital",
+    "original_brand": "BrandA",
+    "rb_premium_name": "RB ICU Bed Elite",
+    "specs": ["Electric", "4 Casters"],
+    "stock_status": "in_stock"
+  },
+  {
+    "id": "laundry-0002",
+    "category": "laundry",
+    "industry": "hotel",
+    "original_brand": "BrandB",
+    "rb_premium_name": "RB Dryer Pro",
+    "specs": ["200L"],
+    "stock_status": "in_stock"
+  },
+  {
+    "id": "surg-0003",
+    "category": "surgical",
+    "industry": "hospital",
+    "original_brand": "BrandC",
+    "rb_premium_name": "RB Clamp 12cm",
+    "specs": ["Stainless"],
+    "stock_status": "in_stock"
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "RB Store Pakistan (Pvt.) Ltd.",
+  "url": "https://rbstore.com.pk",
+  "logo": "https://rbstore.com.pk/public/assets/logo.png",
+  "sameAs": [
+    "https://www.facebook.com/rbstorepakistan",
+    "https://www.instagram.com/rbstorepakistan",
+    "https://www.linkedin.com/company/rbstorepakistan"
+  ],
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "+92 51 111 727 867",
+      "contactType": "customer service",
+      "areaServed": "PK"
+    }
+  ],
+  "hasPOS": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Islamabad",
+      "addressRegion": "Islamabad Capital Territory",
+      "addressCountry": "PK"
+    }
+  },
+  "description": "Master Authorized Distributor and Procurement Portal for hospitals and hotels in Pakistan. Enterprise catalog of medical and hospitality equipment.",
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "productCount",
+      "value": "1000000",
+      "description": "Approximate number of products available via modular JSON shards and enterprise inquiry system"
+    }
+  ],
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://rbstore.com.pk/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}

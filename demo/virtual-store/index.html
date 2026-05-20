@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="RB Store — Industrial procurement for hospitals & hotels in Pakistan"
+    />
+    <title>RB Store — Industrial Catalog</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="assets/css/virtual.css" />
+    <style>
+      /* Tailwind variables small override for heavy-duty tone */
+      :root {
+        --deep-blue: #0b2b4a;
+        --slate: #1f2937;
+        --accent: #0f4c81;
+      }
+    </style>
+  </head>
+  <body class="bg-slate-100 text-slate-900 font-sans">
+    <header
+      class="bg-white shadow-md border-b-2 border-slate-200 p-4 flex items-center justify-between"
+    >
+      <div class="flex items-center gap-4">
+        <div class="text-2xl font-extrabold text-slate-800">RB Store</div>
+        <div class="text-sm text-slate-500">
+          Enterprise Procurement — Hospitals & Hotels
+        </div>
+      </div>
+      <div class="flex items-center gap-3">
+        <select
+          id="category-select"
+          class="px-3 py-2 border rounded bg-white text-sm"
+        >
+          <option value="all">All Categories</option>
+          <option value="surgical">Hospital Surgical Equipment</option>
+          <option value="laundry">Hotel Laundry Equipment</option>
+          <option value="furniture">Hospital Furniture</option>
+        </select>
+        <input
+          id="search"
+          placeholder="Search rb_premium_name"
+          class="px-3 py-2 border rounded w-72"
+        />
+      </div>
+    </header>
+
+    <main class="p-4">
+      <section class="mb-3">
+        <div id="seo-hint" class="text-sm text-slate-600">
+          Viewing: <span id="current-category">All</span>
+        </div>
+      </section>
+
+      <section>
+        <div
+          id="virtual-list"
+          class="relative bg-white border rounded h-[70vh] overflow-auto"
+        >
+          <div id="spacer" style="height: 0px"></div>
+          <div id="items-root" class="absolute left-0 right-0 top-0"></div>
+        </div>
+      </section>
+    </main>
+
+    <script src="assets/js/virtual.js" type="module"></script>
+  </body>
+</html>

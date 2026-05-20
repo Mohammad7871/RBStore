@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="RB Store — Enterprise procurement for Pakistan"
+    />
+    <title>RB Store — Sharded Catalog Demo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      :root {
+        --clinic-blue: #0b4f77;
+        --hotel-gold: #b88900;
+        --glass-bg: rgba(255, 255, 255, 0.6);
+      }
+      .glass {
+        backdrop-filter: blur(6px);
+        background: var(--glass-bg);
+      }
+      .gold-badge {
+        background: linear-gradient(90deg, #d4af37, #b88900);
+        color: #111;
+        padding: 6px 10px;
+        border-radius: 999px;
+        font-weight: 700;
+      }
+      @media (max-width: 640px) {
+        .col-count {
+          grid-template-columns: repeat(1, 1fr);
+        }
+      }
+      @media (min-width: 641px) and (max-width: 1024px) {
+        .col-count {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+      @media (min-width: 1025px) {
+        .col-count {
+          grid-template-columns: repeat(4, 1fr);
+        }
+      }
+      .product-card {
+        padding: 12px;
+        border-radius: 8px;
+        border: 1px solid rgba(15, 23, 42, 0.06);
+        display: flex;
+        gap: 10px;
+        align-items: center;
+      }
+      .product-thumb {
+        width: 80px;
+        height: 64px;
+        background: #f3f4f6;
+        border-radius: 6px;
+        flex-shrink: 0;
+      }
+      .sticky-bottom {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.9), #fff);
+        border-top: 1px solid #e6eef5;
+        padding: 10px;
+        display: flex;
+        gap: 8px;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body class="bg-slate-50 text-slate-900">
+    <header class="p-4 flex items-center justify-between">
+      <div>
+        <h1 class="text-xl font-extrabold">RB Store — Sharded Catalog</h1>
+        <div class="text-sm text-slate-600">
+          Demo: Lazy shard loader + virtual render
+        </div>
+      </div>
+      <div class="flex items-center gap-3">
+        <label class="flex items-center gap-2"
+          ><input id="industry-toggle" type="checkbox" /> Hotel Mode</label
+        >
+        <select id="city-select" class="px-2 py-1 border rounded">
+          <option value="">All Pakistan</option>
+          <option>Karachi</option>
+          <option>Lahore</option>
+          <option>Islamabad</option>
+        </select>
+        <select id="category-select" class="px-2 py-1 border rounded">
+          <option value="all">All</option>
+          <option value="surgical">Surgical</option>
+          <option value="laundry">Laundry</option>
+          <option value="furniture">Furniture</option>
+        </select>
+        <input
+          id="search"
+          placeholder="Search rb_premium_name"
+          class="px-2 py-1 border rounded"
+        />
+      </div>
+    </header>
+
+    <main class="p-4">
+      <div id="virtual-list" class="grid gap-4 col-count"></div>
+    </main>
+
+    <div id="json-ld"></div>
+
+    <div class="sticky-bottom md:hidden">
+      <button
+        id="bottom-search"
+        class="px-4 py-2 bg-slate-800 text-white rounded"
+      >
+        Catalog Search
+      </button>
+      <button id="bottom-wa" class="px-4 py-2 bg-green-600 text-white rounded">
+        Talk to Specialist (WhatsApp)
+      </button>
+    </div>
+
+    <script type="module" src="assets/js/shardLoader.js"></script>
+    <script type="module" src="assets/js/rebrand.js"></script>
+    <script type="module" src="assets/js/seo.js"></script>
+    <script type="module" src="assets/js/bottomBar.js"></script>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+.rb-floating-contact {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 14px;
+  z-index: 9999;
+  display: flex;
+  gap: 8px;
+}
+.rb-floating-contact .fc-inner {
+  display: flex;
+  gap: 8px;
+  background: var(--card-bg);
+  padding: 6px;
+  border-radius: 40px;
+  box-shadow: var(--shadow-md);
+  align-items: center;
+}
+.fc-btn {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 8px 12px;
+  border-radius: 30px;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--text-primary);
+}
+.fc-whatsapp {
+  background: linear-gradient(90deg, #25d366, #1ebd5a);
+  color: #fff;
+}
+.fc-email {
+  background: linear-gradient(90deg, #0ea5e9, #0369a1);
+  color: #fff;
+}
+.fc-quote {
+  background: linear-gradient(90deg, var(--primary), #a00d24);
+  color: #fff;
+  border: none;
+}
+@media (min-width: 768px) {
+  .rb-floating-contact {
+    display: none;
+  }
+}

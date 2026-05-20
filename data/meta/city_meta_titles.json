@@ -1,0 +1,25 @@
+{
+  "template": "{category} in {city} - RB Premium | Enterprise Procurement",
+  "cities": {
+    "Islamabad": "Highest Grade Surgical Tools in Islamabad - RB Premium",
+    "Karachi": "Premium Hospital Equipment Supplier in Karachi - RB Premium",
+    "Lahore": "Luxury Hotel Linen & Supplies in Lahore - RB Premium",
+    "Rawalpindi": "Commercial Medical Supplies in Rawalpindi - RB Premium",
+    "Faisalabad": "Durable Hospital Beds in Faisalabad - RB Premium",
+    "Multan": "Wholesale Hotel Furnishings in Multan - RB Premium",
+    "Peshawar": "B2B Medical Equipment in Peshawar - RB Premium",
+    "Quetta": "Hospital Procurement Solutions in Quetta - RB Premium",
+    "Sialkot": "Industrial Hotel Textiles in Sialkot - RB Premium",
+    "Gujranwala": "Hospital-Grade Sterilization Equipment in Gujranwala - RB Premium",
+    "Hyderabad": "Supply Chain for Hotels in Hyderabad - RB Premium",
+    "Sukkur": "Bulk Hospital Linen Supplier in Sukkur - RB Premium",
+    "Abbottabad": "Medical Facility Furnishings in Abbottabad - RB Premium",
+    "Bahawalpur": "Hotel & Hospitality Equipment in Bahawalpur - RB Premium",
+    "Sargodha": "Commercial Medical Furniture in Sargodha - RB Premium",
+    "Sahiwal": "Wholesale Hotel Bedding in Sahiwal - RB Premium",
+    "Mirpur": "Regional Hospital Supplies in Mirpur - RB Premium",
+    "Muzaffarabad": "Procurement Solutions for Hospitals in Muzaffarabad - RB Premium",
+    "Gilgit": "Specialist Medical Equipment in Gilgit - RB Premium",
+    "Skardu": "Luxury Hotel Fixtures in Skardu - RB Premium"
+  }
+}
